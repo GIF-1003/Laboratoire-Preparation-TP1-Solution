@@ -1,0 +1,14 @@
+## ⚠️ Merci de ne pas apporter de modifications à ce dépôt, y compris l'ajout d'issues.
+
+# Solution du labo de préparation pour le TP1
+
+Dans ce dépot, on retrouve la solution aux différents bugs présents dans le laboratoire de préparation pour le TP1.
+
+## Voici un exemple de capture d'écran qui devrait se retrouver dans la Pull Request "Feedback" de votre dépot
+
+### Résultat de la compilation :
+![image25](https://github.com/GIF-1003/Laboratoire-Preparation-TP1-Solution/assets/57879032/d9b1a2a7-b142-4e02-ae83-e5304d86340f)
+
+### Résultat de l'exécution du programme :
+<img width="654" height="647" alt="Image" src="https://github.com/user-attachments/assets/11783837-a028-41d4-b2f0-a05344b9f789" />
+
