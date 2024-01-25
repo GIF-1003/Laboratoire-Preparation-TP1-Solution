@@ -1,0 +1,9 @@
+/dist/
+/build/
+/nbproject/private
+/nbproject/Makefile-Debug.mk
+/nbproject/Makefile-Release.mk
+/nbproject/Makefile-impl.mk
+/nbproject/Makefile-variables.mk
+/nbproject/Package-Debug.bash
+/nbproject/Package-Release.bash
