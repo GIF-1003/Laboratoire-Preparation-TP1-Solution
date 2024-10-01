@@ -1,3 +1,5 @@
+## ⚠️ Merci de ne pas apporter de modifications à ce dépôt, y compris l'ajout d'issues.
+
 # Solution du labo de préparation pour le TP1
 
 Dans ce dépot, on retrouve la solution aux différents bugs présents dans le laboratoire de préparation pour le TP1.
