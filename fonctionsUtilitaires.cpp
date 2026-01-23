@@ -1,6 +1,5 @@
 /**
  * \file fonctionsUtilitaires.cpp
- * à corriger
  */
 
 #include "fonctionsUtilitaires.h"
@@ -10,48 +9,53 @@ using namespace std;
 
 void bug_1()
 {
-    int age = 60;
+    int age{60};
 
     if (age >= 65)
-        cout << "L'age est superieur ou egal a 65" << endl;
+    {
+        cout << "L'âge est supérieur ou égal à 65.\n";
+    }
     else
-        cout << "L'age est inferieur a 65" << endl;
+    {
+        cout << "L'âge est inférieur à 65.\n";
+    }
 }
 
 void bug_2()
 {
-    int entier1; // déclarations
-    int entier2;
-
-    cout << "Entrer un premier entier" << endl; // affichage
+    cout << "Entrer un premier entier:\n";
+    int entier1; // déclaration
     cin >> entier1; // lire un entier
-    cout << "Entrer un second entier" << endl; // affichage
+
+    cout << "Entrer un second entier:\n";
+    int entier2; // déclaration
     cin >> entier2; // lire un entier
-    int somme = entier1 + entier2; // assignation de somme
-    cout << "la Somme est " << somme << endl; // afficher somme
+
+    int somme{entier1 + entier2}; // déclaration et initialisation de somme
+    cout << "La somme est " << somme << ".\n";
 }
 
 void bug_3()
 {
-    int total = 0;
+    int total{0};
 
-    for (int x = 0; x <= 10; x++)
+    for (int x{0}; x <= 10; ++x)
     {
         if (x % 2 == 0)
         {
-            cout << x << " pair" << endl;
+            cout << x << " pair\n";
         }
         total += x;
     }
-
-    cout << "Le programme termine et le total est " << total << endl;
+    
+    cout << "Le programme termine et le total est " << total << ".\n";
 }
 
 void bug_4()
 {
-    int total = 0; // somme des notes
-    int notesSaisies = 0; // compteur de notes saisies
-    const int NOMBRE_NOTES_A_SAISIR = 5;
+    int total{0}; // somme des notes
+    int notesSaisies{0}; // compteur de notes saisies
+    const int NOMBRE_NOTES_A_SAISIR{5};
 
     while (notesSaisies < NOMBRE_NOTES_A_SAISIR)
     {
@@ -59,11 +63,12 @@ void bug_4()
         int note; // une note
         cin >> note; // saisie d'une note
         total = total + note;
+        // total += note; // syntaxe alternative
         notesSaisies = notesSaisies + 1; // incrémentation du compteur
+        // ++notesSaisies; // syntaxe alternative
     }
-    int moyenne; // moyenne des notes
-    moyenne = total / NOMBRE_NOTES_A_SAISIR;
-    cout << "La moyenne de la classe est " << moyenne << endl;
+    int moyenne{total / NOMBRE_NOTES_A_SAISIR}; // moyenne des notes
+    cout << "La moyenne de la classe est " << moyenne << ".\n";
 }
 
 void bug_5(int p_arret)
@@ -72,7 +77,7 @@ void bug_5(int p_arret)
 
     while (y < p_arret) 
     {
-        cout << y << endl;
+        cout << y << "\n";
         ++y;
     }
 }

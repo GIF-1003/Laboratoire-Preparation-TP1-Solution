@@ -1,31 +1,27 @@
 /**
  * \file programmePrincipal.cpp
- * \brief programme principal à corriger
- * avant de compiler, configurer les options de compilation de manière à avoir 
- * tous les messages d'erreur de compilation y compris toutes les mises en garde:
- * dans les "Properties" du projet, C++ compiler,  Warning Level, More Warnings
+ * \brief programme principal
  */
 #include <iostream>
 #include "fonctionsUtilitaires.h"
-#include <array>
 
 using namespace std;
 
-int main ()
+int main()
 {
-    cout << endl << "****bug_1 " << endl;
+    cout << "\n****bug_1\n";
     bug_1();
 
-    cout << endl << "****bug_2 " << endl;
+    cout << "\n****bug_2\n";
     bug_2();
 
-    cout << endl << "****bug_3 " << endl;
+    cout << "\n****bug_3\n";
     bug_3();
 
-    cout << endl << "****bug_4 " << endl;
+    cout << "\n****bug_4\n";
     bug_4();
 
-    cout << endl << "****bug_5 " << endl;
+    cout << "\n****bug_5\n";
     bug_5(5);
 
     return 0;

@@ -1,11 +1,9 @@
 /**
  * \file fonctionsUtilitaires.h
- * à corriger
  */
 
 #ifndef FONCTIONS_UTILITAIRES_H_
 #define FONCTIONS_UTILITAIRES_H_
-#include <array>
 
 void bug_1();
 void bug_2();
